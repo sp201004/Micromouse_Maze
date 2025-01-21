@@ -10,10 +10,10 @@ A fun, interactive maze-solving game built with HTML, CSS, and JavaScript. The *
 - **Pathfinding Visualization**: Watch as the algorithm searches for the best route.
 - Fully responsive and user-friendly interface.
 
-## Live Demo 🚀
+## Live 🚀
 Check out the live version of the game hosted on:
-- [Hugging Face Spaces](https://huggingface.co/spaces/sp201004/Micromouse-Maze).
 - [GitHub Pages](https://sp201004.github.io/Micromouse_Maze/).
+- [Hugging Face Spaces](https://huggingface.co/spaces/sp201004/Micromouse-Maze).
 
 ## How to Use 🕹️
 1. **Select Mode**: Use the buttons to switch between different modes:
@@ -47,8 +47,7 @@ You can run this project locally or host it online.
 - **JavaScript**: For implementing the game logic and pathfinding algorithms.
 
 ## Screenshots 📸
-![Micromouse Maze Screenshot](https://via.placeholder.com/800x400?text=Micromouse+Maze+Game)  
-*(Replace the placeholder with an actual screenshot of your game)*
+![Micromouse Maze Screenshot](https://github.com/user-attachments/assets/141dce15-32af-4b7b-918d-f28692108957)  
 
 ## Contributing 🤝
 Contributions are welcome! If you'd like to improve the game or add new features:
