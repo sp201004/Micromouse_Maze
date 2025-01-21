@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Micromouse Maze Game</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Micromouse Maze Game</h1>
+
+    <div id="grid-container"></div>
+
+    <div id="controls">
+      <button onclick="setMode('select')">Select</button>
+      <button onclick="setMode('delete')">Delete</button>
+      <button onclick="setMode('start')">Start</button>
+      <button onclick="setMode('final')">Final</button>
+      <button onclick="resetGrid()">Reset</button>
+      <button onclick="findPath()">Find Path</button>
+    </div>
+
+    <p id="status">Select Start and Destination points.</p>
+
+    <script src="script.js"></script>
+  </body>
+</html>

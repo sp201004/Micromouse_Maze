@@ -1,0 +1,96 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #333;
+  color: white;
+}
+
+h1 {
+  color: rgb(22, 205, 47);
+}
+
+#grid-container {
+  display: grid;
+  grid-template-columns: repeat(8, 50px);
+  grid-template-rows: repeat(8, 50px);
+  gap: 1px;
+  margin: 20px auto;
+  width: fit-content;
+  background-color: black;
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  border: 1px solid rgb(39, 37, 37);
+  font-size: 14px;
+  cursor: pointer;
+  color: black;
+}
+
+.cell.start {
+  background-color: green;
+  color: white;
+}
+
+.cell.final {
+  background-color: red;
+  color: white;
+}
+
+.cell.block {
+  background-color: gray;
+  color: transparent;
+}
+
+.cell.path {
+  background-color: yellow;
+  color: black;
+}
+
+#controls {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+button:nth-child(1) {
+  background-color: #a9a9a9;
+}
+button:nth-child(2) {
+  background-color: #ff5771;
+}
+button:nth-child(3) {
+  background-color: #90ee90;
+}
+button:nth-child(4) {
+  background-color: #ff6347;
+}
+button:nth-child(5) {
+  background-color: #ffd700;
+}
+button:nth-child(6) {
+  background-color: #1e90ff;
+}
+
+button:hover {
+  background-color: #837979;
+}
+
+#status {
+  margin-top: 10px;
+  font-size: 16px;
+}
