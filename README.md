@@ -73,3 +73,9 @@ This project is licensed under the [MIT License](LICENSE).
 For inquiries or feedback, feel free to reach out:
 - **GitHub**: [sp201004](https://github.com/sp201004)
 - **Hugging Face**: [Micromouse Maze](https://huggingface.co/spaces/sp201004/Micromouse-Maze)
+
+
+<div align="center">
+Built with ❤️ by the Surya
+</div>
+
